@@ -31,3 +31,37 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+
+
+
+
+
+
+As client Script is not get pushed 
+i have written i client script on Ride Booking Document
+
+
+frappe.ui.form.on('Ride Booking', {
+	price_per_km(frm){
+	    total_amount = 0
+	    if (frm.doc.price_per_km && frm.doc.estimated_km) {
+	        frm.doc.service.forEach(function(row) {
+	            total_amount = frm.doc.price_per_km * frm.doc.estimated_km + row.amount
+	            
+	        })
+	    }
+	    frm.set_value("total_amount", total_amount)
+	},
+	estimated_km(frm){
+	    total_amount = 0
+	    if (frm.doc.price_per_km && frm.doc.estimated_km) {
+	        frm.doc.service.forEach(function(row) {
+	            total_amount = frm.doc.price_per_km * frm.doc.estimated_km + row.amount
+	            
+	        })
+	    }
+	    frm.set_value("total_amount", total_amount)
+	}
+	
+})
+
