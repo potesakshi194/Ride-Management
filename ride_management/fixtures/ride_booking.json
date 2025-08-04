@@ -1,0 +1,83 @@
+[
+ {
+  "booking_date": "2025-08-04",
+  "customer": "Sakshi pote",
+  "customer_name": "Sakshi pote",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": 2.0,
+  "make": "Bus",
+  "modified": "2025-08-04 14:26:24.120739",
+  "name": "Bus Ride-2025-00001",
+  "naming_series": "{vehicle}.-.YYYY.-",
+  "phone_number": "8329798527",
+  "price_per_km": 20.0,
+  "return_date": "2025-08-04",
+  "service": [
+   {
+    "amount": 1500.0,
+    "parent": "Bus Ride-2025-00001",
+    "parentfield": "service",
+    "parenttype": "Ride Booking",
+    "service": "Tourist Guides"
+   }
+  ],
+  "total_amount": 1540.0,
+  "type": "bus",
+  "vehicle": "Bus Ride"
+ },
+ {
+  "booking_date": "2025-08-04",
+  "customer": "Sakshi pote",
+  "customer_name": "Sakshi pote",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": 5.0,
+  "make": "Uber Ride 2",
+  "modified": "2025-08-04 14:26:16.652465",
+  "name": "Uber Ride by 2 wheeler-2025-00001",
+  "naming_series": "{vehicle}.-.YYYY.-",
+  "phone_number": "8329798527",
+  "price_per_km": 50.0,
+  "return_date": "2025-08-04",
+  "service": [
+   {
+    "amount": 1000.0,
+    "parent": "Uber Ride by 2 wheeler-2025-00001",
+    "parentfield": "service",
+    "parenttype": "Ride Booking",
+    "service": "Travel Insurance"
+   }
+  ],
+  "total_amount": 1250.0,
+  "type": "bike",
+  "vehicle": "Uber Ride by 2 wheeler"
+ },
+ {
+  "booking_date": "2025-08-04",
+  "customer": "Sakshi pote",
+  "customer_name": "Sakshi pote",
+  "docstatus": 0,
+  "doctype": "Ride Booking",
+  "estimated_km": 9.0,
+  "make": "Uber ride 1",
+  "modified": "2025-08-04 14:26:08.494697",
+  "name": "Uber Ride by Car-2025-00001",
+  "naming_series": "{vehicle}.-.YYYY.-",
+  "phone_number": "8329798527",
+  "price_per_km": 60.0,
+  "return_date": "2025-08-04",
+  "service": [
+   {
+    "amount": 500.0,
+    "parent": "Uber Ride by Car-2025-00001",
+    "parentfield": "service",
+    "parenttype": "Ride Booking",
+    "service": "Wi-Fi Access"
+   }
+  ],
+  "total_amount": 1040.0,
+  "type": "car",
+  "vehicle": "Uber Ride by Car"
+ }
+]

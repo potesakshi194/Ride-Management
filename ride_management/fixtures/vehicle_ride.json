@@ -1,0 +1,32 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride",
+  "image": null,
+  "make": "Uber Ride 2",
+  "modified": "2025-08-04 13:51:29.823634",
+  "name": "Uber Ride by 2 wheeler",
+  "price_per_km": 50.0,
+  "type": "bike"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride",
+  "image": "/files/bus.jpeg",
+  "make": "Bus",
+  "modified": "2025-08-04 13:54:02.090199",
+  "name": "Bus Ride",
+  "price_per_km": 20.0,
+  "type": "bus"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Vehicle Ride",
+  "image": null,
+  "make": "Uber ride 1",
+  "modified": "2025-08-04 13:50:08.481330",
+  "name": "Uber Ride by Car",
+  "price_per_km": 60.0,
+  "type": "car"
+ }
+]

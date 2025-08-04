@@ -5,6 +5,11 @@ app_description = "Ride management"
 app_email = "potesakshi194@gmail.com"
 app_license = "mit"
 
+fixtures = [
+    {"dt": "Ride Booking"},
+    {"dt": "Vehicle Ride"},
+    {"dt": "Ride Add On"}
+]
 # Apps
 # ------------------
 

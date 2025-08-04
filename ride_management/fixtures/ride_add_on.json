@@ -1,0 +1,35 @@
+[
+ {
+  "amount": 1500.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-08-04 14:26:24.120739",
+  "name": "3i78gqvpu0",
+  "parent": "Bus Ride-2025-00001",
+  "parentfield": "service",
+  "parenttype": "Ride Booking",
+  "service": "Tourist Guides"
+ },
+ {
+  "amount": 1000.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-08-04 14:26:16.652465",
+  "name": "3rolnf4o9u",
+  "parent": "Uber Ride by 2 wheeler-2025-00001",
+  "parentfield": "service",
+  "parenttype": "Ride Booking",
+  "service": "Travel Insurance"
+ },
+ {
+  "amount": 500.0,
+  "docstatus": 0,
+  "doctype": "Ride Add On",
+  "modified": "2025-08-04 14:26:08.494697",
+  "name": "45la7qsdo5",
+  "parent": "Uber Ride by Car-2025-00001",
+  "parentfield": "service",
+  "parenttype": "Ride Booking",
+  "service": "Wi-Fi Access"
+ }
+]
